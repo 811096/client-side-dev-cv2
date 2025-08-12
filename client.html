@@ -11,11 +11,10 @@
     </style>
 </head>
 <body class="bg-slate-50 text-slate-800">
-    <!-- header section -->
     <header class="bg-white shadow-lg fixed w-full z-50 top-0">
         <nav class="container mx-auto px-6 py-4 flex items-center justify-between">
             <a href="#home" class="nav-link">
-                <img src="logo10.jpg" class="h-20 md:h-15 rounded-lg">
+                <img src="img/logo10.jpg" class="h-20 md:h-15 rounded-lg">
             </a>
             <div class="hidden md:flex space-x-6">
                 <a href="#home" class="nav-link text-lg text-slate-600 hover:text-blue-600 font-medium transition-colors">Home</a>
@@ -46,10 +45,10 @@
                     <img src="about2.jpg" alt="Hotel Exterior" class="w-full h-full object-cover">
                 </div>
                 <div class="carousel-item">
-                    <img src="homepage10.jpg" alt="Lobby Area" class="w-full h-full object-cover">
+                    <img src="img/homepage10.jpg" alt="Lobby Area" class="w-full h-full object-cover">
                 </div>
                 <div class="carousel-item">
-                    <img src="homepool.jpg" alt="Pool View" class="w-full h-full object-cover">
+                    <img src="img/homepool.jpg" alt="Pool View" class="w-full h-full object-cover">
                 </div>
             </div>
             <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
@@ -67,10 +66,20 @@
                     </p>
                 </div>
             </div>
+             <div id="cookies-alert" class="cookies-alert">
+                   <p style="margin: 0 0 10px 0; font-size: 14px;">
+                      🍪 We use cookies to improve your experience.
+                  </p>
+                 <div style="text-align: right;">
+        <button id="accept-cookies" style="background: #3b82f6; color: white; border: none; padding: 8px 16px; border-radius: 5px; cursor: pointer; font-size: 14px;">
+            Accept
+        </button>
+                 </div>
+             </div>
         </section>
 
         
-        <!-- About Page Section-->
+        <!-- About Page -->
         <section id="about" class="page-section hidden py-16 md:py-24 bg-slate-100 min-h-screen flex items-center justify-center">
             <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
                 <div class="space-y-6 animate-fade-in-up">
@@ -83,7 +92,7 @@
                     </p>
                 </div>
                 <div class="rounded-xl shadow-2xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
-                    <img src="photoabout.jpg" alt="About Us" class="w-full h-full object-cover">
+                    <img src="img/photoabout.jpg" alt="About Us" class="w-full h-full object-cover">
                 </div>
             </div>
         </section>
@@ -95,7 +104,7 @@
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <!-- Deluxe Room -->
                     <div class="bg-slate-100 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 animate-fade-in-up" style="animation-delay: 0.2s;">
-                        <img src="deluxeroom.jpg" alt="Deluxe Room" class="w-full h-64 object-cover">
+                        <img src="img/deluxeroom.jpg" alt="Deluxe Room" class="w-full h-64 object-cover">
                         <div class="p-6">
                             <h3 class="text-2xl font-semibold mb-2">Deluxe Room</h3>
                             <p class="text-slate-600 mb-4">
@@ -104,9 +113,9 @@
                             <span class="text-blue-600 font-bold text-xl">$150/night</span>
                         </div>
                     </div>
-                    <!-- Executive Suite Section-->
+                    <!-- Executive Suite -->
                     <div class="bg-slate-100 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 animate-fade-in-up" style="animation-delay: 0.4s;">
-                        <img src="image2.jpg" alt="Executive Suite" class="w-full h-64 object-cover">
+                        <img src="img/image2.jpg" alt="Executive Suite" class="w-full h-64 object-cover">
                         <div class="p-6">
                             <h3 class="text-2xl font-semibold mb-2">Executive Suite</h3>
                             <p class="text-slate-600 mb-4">
@@ -117,7 +126,7 @@
                     </div>
                     <!-- Presidential Suite -->
                     <div class="bg-slate-100 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 animate-fade-in-up" style="animation-delay: 0.6s;">
-                        <img src="image3.jpg" alt="Presidential Suite" class="w-full h-64 object-cover">
+                        <img src="img/image3.jpg" alt="Presidential Suite" class="w-full h-64 object-cover">
                         <div class="p-6">
                             <h3 class="text-2xl font-semibold mb-2">Presidential Suite</h3>
                             <p class="text-slate-600 mb-4">
@@ -136,7 +145,7 @@
                 <h2 class="text-4xl md:text-5xl font-bold text-center text-blue-600 mb-12 md:mb-16 animate-fade-in-up">Photo Gallery</h2>
                 <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                     <div class="rounded-xl overflow-hidden shadow-md transform hover:scale-105 transition-transform duration-300 animate-fade-in" style="animation-delay: 0.1s;">
-                        <img src="lobby.jpg" alt="Lobby" class="w-full h-auto object-cover">
+                        <img src="img/lobby.jpg" alt="Lobby" class="w-full h-auto object-cover">
                         <div class="p-4 text-center">
                             
 
@@ -146,7 +155,7 @@
                         </div>
                     </div>
                     <div class="rounded-xl overflow-hidden shadow-md transform hover:scale-105 transition-transform duration-300 animate-fade-in" style="animation-delay: 0.2s;">
-                        <img src="restaurnt2.jpg" alt="Restaurant" class="w-full h-auto object-cover">
+                        <img src="img/restaurnt2.jpg" alt="Restaurant" class="w-full h-auto object-cover">
                         <div class="p-4 text-center">
 
                             <h4 class="font-semibold text-lg">Restaurant</h4> 
@@ -155,7 +164,7 @@
                         </div>
                     </div>
                     <div class="rounded-xl overflow-hidden shadow-md transform hover:scale-105 transition-transform duration-300 animate-fade-in" style="animation-delay: 0.3s;">
-                        <img src="gym.jpg" alt="Gym" class="w-full h-auto object-cover">
+                        <img src="img/gym.jpg" alt="Gym" class="w-full h-auto object-cover">
                         <div class="p-4 text-center">
 
                             <h4 class="font-semibold text-lg">Gym</h4>
@@ -164,7 +173,7 @@
                         </div>
                     </div>
                     <div class="rounded-xl overflow-hidden shadow-md transform hover:scale-105 transition-transform duration-300 animate-fade-in" style="animation-delay: 0.4s;">
-                        <img src="spa.jpg" alt="Spa" class="w-full h-auto object-cover"><div class="p-4 text-center">
+                        <img src="img/spa.jpg" alt="Spa" class="w-full h-auto object-cover"><div class="p-4 text-center">
 
                             <h4 class="font-semibold text-lg">Spa</h4>
                             <p>Indulge in pure relaxation at our serene spa sanctuary. Experience rejuvenating treatments, soothing aromas, and tranquil surroundings designed to melt away stress and restore balance to body and mind.</p>
@@ -172,7 +181,7 @@
                         </div>
                     </div>
                     <div class="rounded-xl overflow-hidden shadow-md transform hover:scale-105 transition-transform duration-300 animate-fade-in" style="animation-delay: 0.5s;">
-                        <img src="pool.jpg" alt="Swimming Pool" class="w-full h-auto object-cover">
+                        <img src="img/pool.jpg" alt="Swimming Pool" class="w-full h-auto object-cover">
                         <div class="p-4 text-center">
 
                             <h4 class="font-semibold text-lg">Swimming Pool</h4>
@@ -181,7 +190,7 @@
                         </div>
                     </div>
                     <div class="rounded-xl overflow-hidden shadow-md transform hover:scale-105 transition-transform duration-300 animate-fade-in" style="animation-delay: 0.6s;">
-                        <img src="bedroom.jpg" alt="Bedroom" class="w-full h-auto object-cover">
+                        <img src="img/bedroom.jpg" alt="Bedroom" class="w-full h-auto object-cover">
                         <div class="p-4 text-center">
 
                             <h4 class="font-semibold text-lg">Bedroom</h4>
@@ -190,7 +199,7 @@
                         </div>
                     </div>
                     <div class="rounded-xl overflow-hidden shadow-md transform hover:scale-105 transition-transform duration-300 animate-fade-in" style="animation-delay: 0.7s;">
-                        <img src="conferenceroom.jpg" alt="Conference Room" class="w-full h-auto object-cover">
+                        <img src="img/conferenceroom.jpg" alt="Conference Room" class="w-full h-auto object-cover">
                         <div class="p-4 text-center">
 
                             <h4 class="font-semibold text-lg">Conference Room</h4>
@@ -199,7 +208,7 @@
                         </div>
                     </div>
                     <div class="rounded-xl overflow-hidden shadow-md transform hover:scale-105 transition-transform duration-300 animate-fade-in" style="animation-delay: 0.8s;">
-                        <img src="eventhall.jpg" alt="Event Hall" class="w-full h-auto object-cover">
+                        <img src="img/eventhall.jpg" alt="Event Hall" class="w-full h-auto object-cover">
                         <div class="p-4 text-center">
 
                             <h4 class="font-semibold text-lg">Event Hall</h4>
