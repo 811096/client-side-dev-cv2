@@ -59,3 +59,26 @@
             z-index: -1;
             height: 100%;
         }
+         .cookies-alert {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background: #1f2937;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    z-index: 1000;
+    display: none;
+}
+.cookies-alert.show {
+    display: block;
+}
+@media (min-width: 768px) {
+    .cookies-alert {
+        max-width: 400px;
+        left: auto;
+        right: 20px;
+    }
+}
