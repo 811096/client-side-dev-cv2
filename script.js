@@ -34,3 +34,14 @@ $(document).ready(function() {
                 }, 3000);
             });
         });
+        $(document).ready(function() {
+    setTimeout(function() {
+        if (!localStorage.getItem('cookiesAccepted')) {
+            $('#cookies-alert').addClass('show');
+        }
+    }, 2000);
+    $('#accept-cookies').on('click', function() {
+        localStorage.setItem('cookiesAccepted', 'true');
+        $('#cookies-alert').hide();
+    });
+});    
